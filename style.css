@@ -1,0 +1,13 @@
+/* Custom Animation for HITMAN Text */
+@keyframes text-glow {
+    0% {
+        text-shadow: 0 0 5px #ffcc00, 0 0 10px #ffcc00, 0 0 20px #ffcc00;
+    }
+    100% {
+        text-shadow: 0 0 10px #ffd700, 0 0 20px #ffd700, 0 0 40px #ffd700;
+    }
+}
+
+.hitman-animation span {
+    animation: text-glow 2s infinite alternate;
+}
